@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.field{
+
+    height: 550px;
+    width: 900px;
+    background: rgba(0, 128, 0, 0.815);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldBorder{
+    height: 400px;
+    width: 700px;
+    border: 4px solid white;
+    position: relative;
+    
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bindu{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cornerOne{
+    position: absolute;
+      width: 30px;
+      height: 30px;
+      border-top: 4px solid white;
+      border-left: 4px solid white;
+      border-top-left-radius: 100%;
+      top: 0;
+      left: 0;
+      background: transparent;
+      rotate: 180deg;
+
+}
+
+.cornerTwo{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-top-left-radius: 100%;
+    top: 0;
+    right: 0;
+    background: transparent;
+    rotate: 270deg;
+
+}
+.cornerThree{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-top-left-radius: 100%;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    rotate: 90deg;
+
+}
+.cornerFour{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-top-left-radius: 100%;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    rotate: 0deg;
+
+}
+
+.straight{
+    height: 400px;
+    width: 4px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.football{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.boxOne{
+    height: 180px;
+    width: 120px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+
+.boxTwo{
+    height: 180px;
+    width: 120px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+   
+    border-left: 4px solid white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+.sortOne{
+    height: 100px;
+    width: 50px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.sortTwo{
+    height: 100px;
+    width: 50px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+
+.pointOne{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+.pointTwo{
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 70%;
+
+}
+.netOne{
+    height: 50px;
+    width: 30px;
+    
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+}
+.netTwo{
+    height: 50px;
+    width: 30px;
+    
+   
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    
+}
